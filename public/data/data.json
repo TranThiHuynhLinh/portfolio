@@ -1,0 +1,48 @@
+{
+    "experience": [
+        {
+            "id": 1,
+            "period": "2021 - 2025",
+            "institution": "Danang University of Science and Technology",
+            "role": "Majoring in data science and artificial intelligence"
+        },
+        {
+            "id": 2,
+            "period": "2023 - now",
+            "institution": "Free AI Utilities",
+            "role": "Intern mobile developer and front-end developer"
+        }
+    ],
+    "projects": [
+        {
+            "id": "01",
+            "name": "Milo",
+            "role": "Mobile Deverloper",
+            "description": "Milo is a mobile application that helps users to find the best coffee shops in their area. Users can also rate and review the coffee shops they visit.",
+            "technologies": "React Native, Firebase",
+            "tasks": [
+                "Developed the front-end of the application using React Native",
+                "Integrated Firebase for user authentication and data storage",
+                "Implemented the rating and review system"
+            ],
+            "github": "",
+            "image": "/project_image/1.jpg"
+        }, 
+        {
+            "id": "02",
+            "name": "Educate",
+            "role": "Educa",
+            "description": "Educa is a web application that helps students to find the best tutors in their area. Tutors can create profiles and list their services on the platform.",
+            "technologies": "React, Node.js, MongoDB",
+            "tasks": [
+                "Developed the front-end of the application using React",
+                "Implemented the tutor profile creation and listing system",
+                "Integrated MongoDB for data storage"
+            ],
+            "github": "",
+            "image": "/project_image/1.jpg"
+        }
+
+    ]
+
+}

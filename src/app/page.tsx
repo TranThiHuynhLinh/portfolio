@@ -1,7 +1,7 @@
 import { faFacebook, faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faDownload, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { Button } from "@nextui-org/react"
+import { Avatar, Button } from "@nextui-org/react"
 
 export default function Page() {
     return (
@@ -13,14 +13,14 @@ export default function Page() {
                     </div>
                     <div className="font-bold text-6xl">
                         <div>Hello I am </div>
-                        <div className="text-green-600">Linh Tran</div>
+                        <div className="text-green-600">Huynh Linh</div>
                     </div>
                     <div className="mt-8">
                         Lorem ipsum dolor sit, amet consectetur adipisicing
                         elit. Fugit aliquam dicta molestiae earum odit
                         blanditiis eius facilis doloremque accusantium nostrum.
                     </div>
-                    <div className="mt-4 flex justify-between">
+                    <div className="mt-8 flex justify-between">
                         <Button variant="flat" color="success" size="lg">
                             <FontAwesomeIcon icon={faDownload} size="lg" />
                             Download CV
@@ -56,7 +56,15 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-1">rigt</div>
+                <div className="flex-1 flex justify-end">
+                    <div className="">
+                        <Avatar
+                            src="/avatar.jpg"
+                            isBordered
+                            className="w-80 h-80 text-large hover:scale-105 transition-transform duration-300 ease-in-out"
+                        />
+                    </div>
+                </div>
             </div>
             <div className="mt-20 flex justify-between">
                 <div className="flex items-center gap-x-4">

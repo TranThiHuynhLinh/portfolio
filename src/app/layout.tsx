@@ -5,6 +5,7 @@ import Provider from "@/components/providers/Provider"
 import Header from "@/components/app/Header"
 import { config } from "@fortawesome/fontawesome-svg-core"
 import "@fortawesome/fontawesome-svg-core/styles.css"
+import Transition from "@/components/app/Transition"
 config.autoAddCss = false
 
 const jetbrainsMono = JetBrains_Mono({
@@ -25,9 +26,11 @@ export default function RootLayout({
         <html lang="en">
             <body className={jetbrainsMono.className}>
                 <Provider>
-                    <div className="px-48 min-h-screen">
+                    <div className="min-h-screen flex flex-col px-4 md:px-48">
                         <Header />
-                        {children}
+                        <div className="pt-24 flex-grow flex flex-col">
+                            <Transition>{children}</Transition>
+                        </div>
                     </div>
                 </Provider>
             </body>
