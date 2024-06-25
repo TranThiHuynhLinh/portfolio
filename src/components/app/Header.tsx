@@ -36,12 +36,20 @@ export default function Header() {
                         <Link href="/" className={getLinkClassname("/")}>
                             Home <span className={spanStyle("/")}></span>
                         </Link>
+
                         <Link
                             href="/projects"
                             className={getLinkClassname("/projects")}
                         >
                             Project
                             <span className={spanStyle("/projects")}></span>
+                        </Link>
+                        <Link
+                            href="/skills"
+                            className={getLinkClassname("/skills")}
+                        >
+                            Skills{" "}
+                            <span className={spanStyle("/skills")}></span>
                         </Link>
                         <Link
                             href="/experiences"

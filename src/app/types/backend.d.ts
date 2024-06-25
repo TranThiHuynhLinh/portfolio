@@ -15,3 +15,8 @@ interface IProject {
     github: string
     image: string
 }
+interface IInfor {
+    email: string
+    phone: string
+    address: string
+}

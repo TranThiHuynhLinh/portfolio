@@ -1,0 +1,5 @@
+export { NextJsIcon } from "./components/NextJsIcon"
+export { NodeJsIcon } from "./components/NodeJsIcon"
+export { TailwindIcon } from "./components/TailwindIcon"
+export { TypescriptIcon } from "./components/TypescriptIcon"
+export { ReactJsIcon } from "./components/ReactJsIcon"
