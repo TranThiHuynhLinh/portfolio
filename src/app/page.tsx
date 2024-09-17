@@ -1,4 +1,4 @@
-import { faFacebook, faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faGithub, faGitlab } from "@fortawesome/free-brands-svg-icons"
 import { faDownload, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Avatar, Button } from "@nextui-org/react"
@@ -21,13 +21,12 @@ export default function Page() {
                     </div>
                     <div className="mt-8 flex justify-between">
                         <div className="flex gap-x-4">
-                            <Link href="https://www.facebook.com/hang.truc.90813/" target="_blank"><Button
+                            <Link href="https://github.com/TranThiHuynhLinh" target="_blank"><Button
                                 variant="flat"
                                 color="success"
                                 size="lg"
                                 isIconOnly
                                 className="rounded-full"
-                                href="https://github.com/TranThiHuynhLinh"
                             >
                                 <FontAwesomeIcon icon={faGithub} size="lg" />
                             </Button></Link>
@@ -42,7 +41,16 @@ export default function Page() {
                             >
                                 <FontAwesomeIcon icon={faFacebook} size="lg" />
                             </Button></Link>
-                            
+                            <Link href="https://gitlab.com/huynhlinh18203" target="_blank"><Button
+                                variant="flat"
+                                color="success"
+                                size="lg"
+                                isIconOnly
+                                className="rounded-full"
+                                
+                            >
+                                <FontAwesomeIcon icon={faGitlab} size="lg" />
+                            </Button></Link>
                         </div>
                     </div>
                 </div>
