@@ -10,7 +10,7 @@ export default function Page() {
             <div className="flex justify-between">
                 <div className="flex-1 ">
                     <div className="mb-4 font-semibold text-xl">
-                        Font End Developer
+                        Front End Developer
                     </div>
                     <div className="font-bold text-6xl">
                         <div>Hello I am </div>
