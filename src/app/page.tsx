@@ -2,6 +2,7 @@ import { faFacebook, faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faDownload, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Avatar, Button } from "@nextui-org/react"
+import Link from "next/link"
 
 export default function Page() {
     return (
@@ -19,38 +20,29 @@ export default function Page() {
                     Final-year student at Danang University of Science and Technology with a passion for web development, experienced in various projects, and eager to contribute while continuing to grow as a developer.
                     </div>
                     <div className="mt-8 flex justify-between">
-                        <Button variant="flat" color="success" size="lg">
-                            <FontAwesomeIcon icon={faDownload} size="lg" />
-                            Download CV
-                        </Button>
                         <div className="flex gap-x-4">
-                            <Button
+                            <Link href="https://www.facebook.com/hang.truc.90813/" target="_blank"><Button
                                 variant="flat"
                                 color="success"
                                 size="lg"
                                 isIconOnly
                                 className="rounded-full"
+                                href="https://github.com/TranThiHuynhLinh"
                             >
                                 <FontAwesomeIcon icon={faGithub} size="lg" />
-                            </Button>
-                            <Button
+                            </Button></Link>
+                            
+                            <Link href="https://www.facebook.com/hang.truc.90813/" target="_blank"><Button
                                 variant="flat"
                                 color="success"
                                 size="lg"
                                 isIconOnly
                                 className="rounded-full"
-                            >
-                                <FontAwesomeIcon icon={faEnvelope} size="lg" />
-                            </Button>
-                            <Button
-                                variant="flat"
-                                color="success"
-                                size="lg"
-                                isIconOnly
-                                className="rounded-full"
+                                
                             >
                                 <FontAwesomeIcon icon={faFacebook} size="lg" />
-                            </Button>
+                            </Button></Link>
+                            
                         </div>
                     </div>
                 </div>

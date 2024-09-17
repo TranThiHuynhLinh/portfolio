@@ -33,6 +33,20 @@
             ],
             "github": "",
             "image": "/project_image/1.png"
+        },{
+            "id": "02",
+            "name": "MelodyHub",
+            "role": "Back-end",
+            "description": "MelodyHub is a website that supports listening to music online.",
+            "technologies": "Django, Firebase",
+            "tasks": [
+                "Firebase Integration: Store and manage music data, playlists, and user profiles",
+                "Spotify Scraping: Collect and update song metadata from Spotify",
+                "User Authentication: Implement JWT with Firebase for Access & Refresh Tokens",
+                "Playlist Management: Create, update, and manage playlists stored in Firebase"
+            ],
+            "github": "",
+            "image": "/project_image/2.jpg"
         }
     ]
 
