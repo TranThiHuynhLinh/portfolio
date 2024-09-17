@@ -45,8 +45,21 @@
                 "User Authentication: Implement JWT with Firebase for Access & Refresh Tokens",
                 "Playlist Management: Create, update, and manage playlists stored in Firebase"
             ],
-            "github": "",
+            "github": "https://github.com/TranThiHuynhLinh/melody-hub-backend",
             "image": "/project_image/2.jpg"
+        },{
+            "id": "03",
+            "name": "Milo",
+            "role": "Mobile Developer",
+            "description": "Milo is a mobile app that leverages OpenAI technology to help users craft engaging and imaginative stories for children.",
+            "technologies": "React Native, Firebase",
+            "tasks": [
+                "Developed the front-end of the application using React Native",
+                "Integrated Firebase for user authentication and data storage",
+                "Implemented story generation features using OpenAI’s API"
+            ],
+            "github": "",
+            "image": "/project_image/3.jpg"
         }
     ]
 
