@@ -38,8 +38,8 @@ export default function Page() {
         <div className="flex-grow pt-12">
             {currentProject && (
                 <>
-                    <div className="flex justify-between items-center gap-x-8">
-                        <div className="w-2/3 flex flex-col justify-between h-96">
+                    <div className="flex justify-between items-center gap-x-4">
+                        <div className="w-[60%] flex flex-col justify-between h-96">
                             <div className="text-6xl font-extrabold">
                                 {currentProject.id}
                             </div>
@@ -58,8 +58,8 @@ export default function Page() {
                                     <li key={index}>- {task}</li>
                                 ))}
                             </ul>
-                            <Divider />
-                            <div className="flex gap-x-4">
+                            <Divider className="mt-10"/>
+                            <div className="flex gap-x-4 mt-4">
                                 <Button
                                     isIconOnly
                                     color="success"
@@ -94,12 +94,13 @@ export default function Page() {
                                 </Button>
                             </div>
                         </div>
-                        <div className="w-1/3">
+                        <div className="w-[40%]">
                             <Image
                                 isBlurred
                                 src={currentProject.image}
                                 alt={currentProject.name}
-                                className="w-96 h-96 cursor-pointer"
+                                height={800}
+                                width={1000}
                                 isZoomed
                             />
                         </div>

@@ -1,4 +1,12 @@
-{
-    "tabWidth":4,
-    "semi": false 
-}
+tôi muốn làm 1 web tên Pegasus AI được mô tả như sau:
+- khách hàng là những người muốn xây dựng một hệ thống chatbot cho từng phòng ban của công ty họ. ví dụ, khách hàng A có công ty A1, công ty này có 4 phòng ban, A sẽ tạo ra 4 phòng ban trên web của tôi và cung cấp tài liệu pdf cho AI để tiến hành tạo chatbot riêng cho từng phòng ban. 
+- B là nhân viên mới của công ty A1, ngày đi làm đầu tiên B không rõ về các điều khoản cũng như nhiệm vụ của phòng ban mình, với tư cách là giám đốc, A gửi link web của tôi cho B và yêu cầu B đăng ký tài khoản sau đó gửi A gmail để A thêm vào hệ thống công ty đã được xây dựng trên web. Sau khi thêm B vào đúng công ty nhưng chỉ cho phép B hỏi thông tin (chat với chatbot) 1 vài phòng ban cụ thể.
+- C là một CEO mới của A1. tương tự B nhưng C được A cấp quyền cho phép tiếp cận toàn bộ các phòng ban.
+- D là một khách hàng của A1, D không muốn tốn thời gian đăng ký tài khoản nên D được phép truy cập công ty A1 và hỏi chatbot dưới dạng Guest (chatbot được xây dựng cho dạng này - có thể coi là 1 phòng ban cụ thể)
+- Số lượng phòng ban là do A quyết định
+- E là một trưởng phòng ban A12, E lập tài khoản và được A cho toàn bộ quyền của phòng ban này. E có thể thêm nhân viên (các tài khoản khác - gmail) vào phòng ban, có thể chỉnh sửa chatbot, đổi hình đại diện phòng ban...
+=> Tôi cần bạn thiết kế 1 database Firebase (NoSQL) phục vụ cho ứng dụng trên.
+*Một vài lưu ý về công nghệ tôi sẽ sử dụng:
+- Frontend: NextJS, ShadcnUI, Tailwind,..
+- Backend: NestJS, RestfulAPI,...
+- Database: Firebase

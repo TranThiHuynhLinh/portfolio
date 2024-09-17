@@ -16,9 +16,7 @@ export default function Page() {
                         <div className="text-green-600">Huynh Linh</div>
                     </div>
                     <div className="mt-8">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Fugit aliquam dicta molestiae earum odit
-                        blanditiis eius facilis doloremque accusantium nostrum.
+                    Final-year student at Danang University of Science and Technology with a passion for web development, experienced in various projects, and eager to contribute while continuing to grow as a developer.
                     </div>
                     <div className="mt-8 flex justify-between">
                         <Button variant="flat" color="success" size="lg">
@@ -68,20 +66,16 @@ export default function Page() {
             </div>
             <div className="mt-20 flex justify-between">
                 <div className="flex items-center gap-x-4">
-                    <div className="text-6xl font-bold">12</div>
+                    <div className="text-6xl font-bold">1</div>
                     <div className="w-24">Year of experience</div>
                 </div>
                 <div className="flex items-center gap-x-4">
-                    <div className="text-6xl font-bold">12</div>
+                    <div className="text-6xl font-bold">3.72</div>
                     <div className="w-24">Year of experience</div>
                 </div>
                 <div className="flex items-center gap-x-4">
-                    <div className="text-6xl font-bold">12</div>
-                    <div className="w-24">Year of experience</div>
-                </div>
-                <div className="flex items-center gap-x-4">
-                    <div className="text-6xl font-bold">12</div>
-                    <div className="w-24">Year of experience</div>
+                    <div className="text-6xl font-bold">3</div>
+                    <div className="w-24">Projects</div>
                 </div>
             </div>
         </div>

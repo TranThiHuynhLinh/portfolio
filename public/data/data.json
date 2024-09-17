@@ -18,36 +18,22 @@
             "role": "Intern mobile developer and front-end developer"
         }
     ],
-    "projects": [
+    "projects": [     
         {
             "id": "01",
-            "name": "Milo",
-            "role": "Mobile Deverloper",
-            "description": "Milo is a mobile application that helps users to find the best coffee shops in their area. Users can also rate and review the coffee shops they visit.",
-            "technologies": "React Native, Firebase",
+            "name": "Pegasus AI",
+            "role": "Front-end",
+            "description": "Pegasus AI is a multilingual platform designed for businesses and shops looking to create custom support chatbots. These chatbots are trained using the LlamaIndex.ts framework with the Llama3 model, leveraging customer-provided documents to deliver tailored and effective customer interactions.",
+            "technologies": "NextJS, Typescript, ShadcnUI, Tailwind CSS, Aceternity UI",
             "tasks": [
-                "Developed the front-end of the application using React Native",
-                "Integrated Firebase for user authentication and data storage",
-                "Implemented the rating and review system"
+                "Integrating with backend APIs for CRUD operations",
+                "JWT Authenticate: Handle Access & Refresh Token with Server Components",
+                "Embed Chatbot via iFrame",
+                "Styling Layouts: Designed and implemented nested and sibling layouts with seamless dark and light mode theme switching"
             ],
             "github": "",
-            "image": "/project_image/1.jpg"
-        }, 
-        {
-            "id": "02",
-            "name": "Educate",
-            "role": "Educa",
-            "description": "Educa is a web application that helps students to find the best tutors in their area. Tutors can create profiles and list their services on the platform.",
-            "technologies": "React, Node.js, MongoDB",
-            "tasks": [
-                "Developed the front-end of the application using React",
-                "Implemented the tutor profile creation and listing system",
-                "Integrated MongoDB for data storage"
-            ],
-            "github": "",
-            "image": "/project_image/1.jpg"
+            "image": "/project_image/1.png"
         }
-
     ]
 
 }

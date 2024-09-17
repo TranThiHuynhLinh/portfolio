@@ -15,9 +15,6 @@ export default function Page() {
                     My FrontEnd Skills
                 </div>
                 <div className="mt-4 text-center">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quibusdam molestiae aliquid perferendis iure eligendi quod
-                    atque iusto velit? Explicabo, nostrum.
                 </div>
                 <div className="grid grid-cols-12 grid-rows-1 mt-8 gap-x-8">
                     <Tooltip
@@ -64,9 +61,6 @@ export default function Page() {
                     My BackEnd Skills
                 </div>
                 <div className="mt-4 text-center">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quibusdam molestiae aliquid perferendis iure eligendi quod
-                    atque iusto velit? Explicabo, nostrum.
                 </div>
                 <div className="grid grid-cols-12 grid-rows-2 mt-8 gap-x-8">
                     <Tooltip
