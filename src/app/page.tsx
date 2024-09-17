@@ -63,7 +63,7 @@ export default function Page() {
                 </div>
                 <div className="flex items-center gap-x-4">
                     <div className="text-6xl font-bold">3.72</div>
-                    <div className="w-24">Year of experience</div>
+                    <div className="w-24">GPA</div>
                 </div>
                 <div className="flex items-center gap-x-4">
                     <div className="text-6xl font-bold">3</div>
