@@ -35,6 +35,20 @@
             "image": "/project_image/1.png"
         },{
             "id": "02",
+            "name": "Milo",
+            "role": "Mobile Developer",
+            "description": "Milo is a mobile app that leverages OpenAI technology to help users craft engaging and imaginative stories for children.",
+            "technologies": "React Native, Firebase",
+            "tasks": [
+                "Developed the front-end of the application using React Native",
+                "Integrated Firebase for user authentication and data storage",
+                "Implemented story generation features using OpenAI’s API"
+            ],
+            "github": "https://gitlab.com/tranhuutuan261103/bedtime-stories-for-kids",
+            "image": "/project_image/3.jpg"
+        },
+        {
+            "id": "03",
             "name": "MelodyHub",
             "role": "Back-end",
             "description": "MelodyHub is a website that supports listening to music online.",
@@ -47,19 +61,21 @@
             ],
             "github": "https://github.com/TranThiHuynhLinh/melody-hub-backend",
             "image": "/project_image/2.jpg"
-        },{
-            "id": "03",
-            "name": "Milo",
-            "role": "Mobile Developer",
-            "description": "Milo is a mobile app that leverages OpenAI technology to help users craft engaging and imaginative stories for children.",
-            "technologies": "React Native, Firebase",
+        },
+        {
+            "id": "04",
+            "name": "Book Station",
+            "role": "Front-end & Back-end",
+            "description": "Book Station is a vibrant online community where book lovers come together to share their passionate reviews and recommendations.",
+            "technologies": "C#, Html, css, Sql Server",
             "tasks": [
-                "Developed the front-end of the application using React Native",
-                "Integrated Firebase for user authentication and data storage",
-                "Implemented story generation features using OpenAI’s API"
+                "Implement the UI using HTML and CSS to structure and style the interface",
+                "Optimize loading times and resource usage on the front-end.",
+                "Crawl data and design database on sql server",
+                "Develop repositories or data access classes to interact with the database (CRUD operations)."
             ],
-            "github": "",
-            "image": "/project_image/3.jpg"
+            "github": "https://github.com/TranThiHuynhLinh/BookStation/tree/main",
+            "image": "/project_image/4.png"
         }
     ]
 

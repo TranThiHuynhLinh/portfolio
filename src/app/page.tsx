@@ -74,7 +74,7 @@ export default function Page() {
                     <div className="w-24">GPA</div>
                 </div>
                 <div className="flex items-center gap-x-4">
-                    <div className="text-6xl font-bold">3</div>
+                    <div className="text-6xl font-bold">4</div>
                     <div className="w-24">Projects</div>
                 </div>
             </div>
